@@ -1,0 +1,37 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+body{
+  background-color: rgb(255 54 54 / 73%);
+}
+h1{
+  color: yellow;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 80px;
+}
+#buttons{
+  display: grid;
+  grid-template-rows: 100px;
+  justify-content: center;
+  align-content: center;
+  margin: 100px;
+}
+#display{
+  width: 658px;
+  height: 80px;
+  background-color: lightyellow;
+  margin: auto;
+  border-radius: 8px;
+  border: 2px solid lightgray;
+  font-size: 50px;
+}
+
+button{
+  width: 160px;
+  height: 100px;
+  border-radius: 4px;
+  background-color: lightgray;
+  font-size: 40px;
+}
